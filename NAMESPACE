@@ -1,3 +1,4 @@
-useDynLib(ArmadilloTest, .registration=TRUE)
+useDynLib(example1, .registration = TRUE)
 importFrom(Rcpp, evalCpp)
+importFrom(RcppParallel, RcppParallelLibs)
 exportPattern("^[[:alpha:]]+")
